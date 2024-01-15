@@ -6,8 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Replace these with your AWS RDS database credentials
-DB_HOST = 'group-one.cfmnnswnfhpn.eu-west-2.rds.amazonaws.com'
+DB_HOST = '-.eu-west-2.rds.amazonaws.com'
 DB_PORT = '5432'
 DB_NAME = 'postgres'
 DB_USER = 'groupone'
